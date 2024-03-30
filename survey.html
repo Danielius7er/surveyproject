@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="body.css" type="text/css">
+</head>
+<body>
+  <h1>Food survey</h1> 
+  <form id="form"> 
+  <div id="form-control"><label for="name" id="label-name">
+   Name
+  </label>
+  <input type="text" id="name" placeholder="Enter username">
+</div>
+<br>
+<div id="form-control">
+    <label for="age" id="age">Age</label>
+    <input type="text" name="age" id="age" placeholder="enter your age">
+</div>
+<br>
+<div id="form-control">
+    <label for="food" id="food-name ">
+        What continent type food do you prefer?
+    </label>
+    <select name="food" id="food-name">
+        <option value="European">European</option>
+        <option value="African">African</option>
+        <option value="Asian">Asian</option>
+        <option value="Americas">Americas</option>
+        <option value="Neutral">Neutral</option>
+    </select>
+</div>
+<div id="form-control">
+  <label>
+    Would you eat in a restaurant that is considered expensive?
+</label>
+<br>
+<label for="yes"> Yes </label>
+    <input type="radio" name="yes" id="yes"> 
+    <br>
+    <label for="no">No</label>
+    <input type="radio" name="No" id="No">
+    <br>
+    <label for="Depends on the mood">Depends/Maybe</label>
+     <input type="radio" name="Maybe" id="Depends">
+</div>
+
+<div id="form-control">
+    <label>Foods that you like</label>
+    <small>(Select all that you like)</small>
+    <br>
+    <label for="inp-1">Burger</label>
+    <input type="checkbox" name="Hamburger" id="burger">
+    <br>
+    <label for="inp-2">Pizza</label>
+    <input type="checkbox" name="Pizza" id="Pizza">
+    <br>
+    <label for="inp-3">French fries or Chips</label>
+    <input type="checkbox" name="Fries" id="Fries">
+    <br>
+    <label for="inp-4">Chicken</label>
+    <input type="checkbox" name="Chicken" id="Chicken">
+    <br>
+    <label for="inp-5">Pasta</label>
+    <input type="checkbox" name="Pasta" id="Pasta">
+</div>
+<div id="form-control">
+<label for="Comments">Any comments</label>
+<br>
+<textarea name="comment" id="comment" cols="30" rows="10" placeholder="Insert your comments here">
+
+</textarea>
+</div>
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>
